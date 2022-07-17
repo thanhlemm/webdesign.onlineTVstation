@@ -1,1 +1,31 @@
-/*code nhung thanh phan cau hinh chung
+/*code nhung thanh phan cau hinh chung*/
+:root {
+    --text-color: #333;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif /*'font web', sans-serif;*/;
+    box-sizing: border-box;
+}
+
+/* Tuong thich voi thiet bi */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+/* The nam trong class nay se nam 1 hang ngang */
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
