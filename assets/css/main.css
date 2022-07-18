@@ -1,22 +1,21 @@
 /*Code nhung thanh phan rieng*/
-ul.menu{
+.header{
+    height: 120px;
+    background-image: linear-gradient(0, white, #7d95be);
+}
+
+.header__navbar{
+    
+}
+
+.header__navbar-list{
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    background-color: #4db2ec;
+    display:flex;
+    padding-left: 0;
 }
-ul.menu>li{
-    width: 25%;
-    text-align: center;
-    border-left: 1px solid white;
+
+.header__navbar-item{
+    display:inline-block;
 }
-ul.menu>li>a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-}
-ul.menu>li>a>span{
-    display: block;
-}
+
+
