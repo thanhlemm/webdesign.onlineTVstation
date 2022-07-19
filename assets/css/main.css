@@ -1,1 +1,56 @@
-/*Code nhung thanh phan rieng
+/* Code nhung thanh phan rieng */
+/*Code nhung thanh phan rieng*/
+.navbar-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #0e2346;
+    z-index: 999; 
+}
+.navbar-item{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid white;
+    position: relative;
+}
+.contents{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+.item_s{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 10px 0px;
+}
+.item{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.item:hover{
+    background-color: rgb(27, 133, 174);
+    
+}
+.dropdown-content{
+    display: none;
+    background-color: #0e2346;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item:hover .dropdown-content{
+    display: block;
+    position: absolute;
+}
+.navbar-item:hover{
+    background-color: #384696;
+    
+}
