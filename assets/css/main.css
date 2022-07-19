@@ -24,6 +24,7 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    padding: 10px 10px 0px;
 }
 .item{
     display: block;
