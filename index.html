@@ -18,67 +18,112 @@
     </head>
     <body>
         <div class="app">
-            <nav class = "navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="#" class="contents">
-                            <img src="https://www.htv.com.vn/Data/Sites/1/media/logo.png" alt="logo THVL" >
-                            <span></span>
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="contents">
-                            <i class="fa-solid fa-calendar-days fa-2x" style="color:#3d8dde;"></i>
-                            <span class="item_s">Lịch phát sóng</span>
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="contents">
-                            <i class="fa-solid fa-tv fa-2x" style="color:#3d8dde;"></i>
-                            <span class="item_s">TV Show</span>
-                        </a>
-                        <ul class="dropdown-content">
-                            <li ><a href="#" class="item">Phim truyền hình</a></li>
-                            <li ><a href="#" class="item">2 ngày 1 đêm</a></li>
-                            <li ><a href="#"class="item">Hôm nay ăn gì?</a></li>
-                            <li ><a href="#" class="item">Bố ơi mình đi đâu thế?</a></li>
-                            <li ><a href="#" class="item">Street dance</a></li>
-                            <li ><a href="#" class="item">Siêu tài năng</a></li>
-                        </ul>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#" class="contents">
-                            <i class="fa-solid fa-user fa-2x" style="color:#3d8dde;"></i>
-                            <span class="item_s">Giới thiệu</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="slideshow-container">
-                <div class="slide fade">
-                    <a href="#" title="Đi là ghiền"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
+            <header>
+                <nav class = "navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="#" class="contents">
+                                <img src="https://www.htv.com.vn/Data/Sites/1/media/logo.png" alt="logo THVL" >
+                                <span></span>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="contents">
+                                <i class="fa-solid fa-calendar-days fa-2x" style="color:#3d8dde;"></i>
+                                <span class="item_s">Lịch phát sóng</span>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="contents">
+                                <i class="fa-solid fa-tv fa-2x" style="color:#3d8dde;"></i>
+                                <span class="item_s">TV Show</span>
+                            </a>
+                            <ul class="dropdown-content">
+                                <li ><a href="#" class="item">Phim truyền hình</a></li>
+                                <li ><a href="#" class="item">2 ngày 1 đêm</a></li>
+                                <li ><a href="#"class="item">Hôm nay ăn gì?</a></li>
+                                <li ><a href="#" class="item">Bố ơi mình đi đâu thế?</a></li>
+                                <li ><a href="#" class="item">Street dance</a></li>
+                                <li ><a href="#" class="item">Siêu tài năng</a></li>
+                            </ul>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="contents">
+                                <i class="fa-solid fa-user fa-2x" style="color:#3d8dde;"></i>
+                                <span class="item_s">Giới thiệu</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <a href="#" title="Đi là ghiền"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
+                    </div>
+                    <div class="slide fade"> 
+                        <a href="#" title="Siêu tài năng nhí"><img src="assets/img/show/Sieutainang.jpeg" alt="pic2"></a>
+                    </div>
+                    <div class="slide fade">
+                        <a href="#" title="Street Dance"><img src="assets/img/show/streetdance.jpeg" alt="pic3"></a>
+                    </div>
+                    <div class="button">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
                 </div>
-                <div class="slide fade"> 
-                    <a href="#" title="Siêu tài năng nhí"><img src="assets/img/show/Sieutainang.jpeg" alt="pic2"></a>
-                </div>
-                <div class="slide fade">
-                    <a href="#" title="Street Dance"><img src="assets/img/show/streetdance.jpeg" alt="pic3"></a>
-                </div>
-                <div class="button">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </header>
+            
+            <div class="container">
+                <div class="program">
+                    <div class="program-list">
+                        <div class="program-list_item">
+                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
+                        </div>
+                        <div class="program-list_item">
+                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic2"></a>
+                        </div>
+                        <div class="program-list_item">
+                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
+                        </div>
+                        <div class="program-list_item">
+                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <footer class="footer" style="background-color: #0e2346;">
+
+                <div class="footer-left">
+                    <h4 >ĐÀI TRUYỀN HÌNH THÀNH PHỐ HỒ CHÍ MINH</h4>
+                    <div class="credit">
+                        <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_cu_HTV.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="footer-center">
+                    <div class="title"> LIÊN KẾT NHANH</div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">TV Show</a></li>
+                            <li><a href="#">Lịch phát sóng</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="title">LIÊN HỆ</div>
+                    <div class="contact">
+                        <ul>
+                            <li><i class="fa-solid fa-user-group"></i>Tổng biên tập: Lê Thị Bảo Trinh & Ngô Thanh Lam</li>
+                            <li><i class="fa-solid fa-location-dot"></i>371 Nguyễn Kiệm, Gò Vấp, TPHCM</li>
+                            <li><i class="fa-solid fa-mobile-screen"></i>0912534722</li>
+                            <li><i class="fa-solid fa-envelope"></i>Email:<a href="mailto:2151050220lam@ou.edu.vn"> 2151050220lam@ou.edu.vn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
         </div>
         <script src="assets/javascript/show.js"></script>
-        <footer class="footer" style="background-color: #0e2346;">
-            <div class="footer-left">
-                <h2 style="color: white">Đài truyền hình Thành Phố Hồ Chí Minh</h2>
-                <div class="credit">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_cu_HTV.png" alt="logo">
-                </div>
-            </div>
-        </footer>
+        
     </body>
     <script>
         function plusSlides(){
