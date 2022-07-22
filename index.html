@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="keywords" content="thvl, đài truyền hình vĩnh long, đài truyền hình"/>
-        <meta name="description" content="Trang thông tin điện tử trực tuyến của đài truyền hình Vĩnh Long(THVL)"/>
+        <meta name="keywords" content="đài truyền hình, đài truyền hình thành phố hồ chí minh, đài truyền hình tphcm, truyền hình trực tiếp""/>
+        <meta name="description" content="Trang thông tin điện tử trực tuyến của đài truyền hình thành phố Hồ Chí Minh(HTV"/>
         <!-- Logo -->
         <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-HE2DybhfSV9sriEuiqSW-nNl5RpUzpoPjSxr7BBGtCnrph5JQphyXJTfimBht37a6s&usqp=CAU" rel="icon"/>
-        <title>Đài truyền hình</title>
+        <title>Đài truyền hình thành phố Hồ Chí Minh</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">
@@ -54,17 +54,27 @@
                     </li>
                 </ul>
             </nav>
-            <header class="slideshow">
-                <div class="slide">
-                    <div class="move">
-                        <img src="assets/img/show/Dilaghien.jpeg">
-                        <img src="assets/img/show/Sieutainang.jpeg">
-                        <img src="assets/img/show/streetdance.jpeg">
-                        <img src="assets/img/show/Vuikhoe.jpeg">
-                    </div>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <a href="#" title="Đi là ghiền"><img src="assets/images/Dilaghien.jpeg" alt="pic1"></a>
                 </div>
-            </header>
-            <section></section>
+                <div class="slide fade"> 
+                    <a href="#" title="Siêu tài năng nhí"><img src="assets/images/Sieutainang.jpeg" alt="pic2"></a>
+                </div>
+                <div class="slide fade">
+                    <a href="#" title="Street Dance"><img src="assets/images/streetdance.jpeg" alt="pic3"></a>
+                </div>
+                <div class="button">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
         </div>
+        <script src="assets/js/slide.js"></script>
     </body>
+    <script>
+        function plusSlides(){
+            console.log("click next");
+        }
+    </script>
     </html>
