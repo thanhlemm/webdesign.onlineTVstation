@@ -1,10 +1,27 @@
 /*Code nhung thanh phan rieng*/
+*{
+    box-sizing: inherit;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: white;
+    --background-color:#0e2346; 
+    --header-color: #1585d4;
+    --hover-color: rgb(27, 133, 174);
+}
+.header_top{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
 .navbar-list{
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    background-color: #0e2346;
+    background-color: var(--background-color);
     z-index: 999; 
 }
 .navbar-item{
@@ -14,7 +31,7 @@
     position: relative;
 }
 .contents{
-    color: white;
+    color: var(--text-color);
     display: block;
     text-decoration: none;
     padding: 15px;
@@ -22,14 +39,12 @@
 .item_s{
     display: block;
     text-decoration: none;
-    color: white;
     text-transform: uppercase;
     padding: 10px 10px 0px;
 }
 .item{
     display: block;
     text-decoration: none;
-    color: white;
     padding: 5px;
 }
 .item:hover{
@@ -38,7 +53,7 @@
 }
 .dropdown-content{
     display: none;
-    background-color: #0e2346;
+    background-color: var(--background-color);
     list-style-type: none;
     width: 100%;
     padding: 0;
@@ -53,8 +68,6 @@
     background-color: #384696;
     
 }
-  
-/* trinh */
 
 .slideshow-container{
     margin: 0;
@@ -115,29 +128,20 @@
 }
 
 footer{
-    position:fixed;
     bottom: 0;
     padding: 20px;
-}
-
-.footer{
     width: 100%;
     text-align: left;
     margin-top: 80px;
     box-sizing: border-box;
+    background-color: var(--background-color);
 }
 
-.footer .footer-left,
-.footer .footer-center,
-.footer .footer-right{
+.footer-left, .footer-center, .footer-right{
     display: inline-block;
     vertical-align: top;
-}
-
-.footer h4{
-    margin: 0 ;
-    padding-bottom: 20px;
-    color: #1585d4;
+    width: 33%;
+    padding-left: 40px;
 }
 
 .footer a{
@@ -145,48 +149,38 @@ footer{
     color: white;
 }
 
-.footer .footer-left{
-    width: 35%;
-}
-
-.footer .footer-left img{
-    width: 50%;
+.footer-left img{
+    width: 100%;
     vertical-align: middle;
 }
 
-.footer .footer-left .credit{
-    width:100%;
+.footer-left .credit{
+    width:30%;
     padding-left:55px;
 }
-
-
-.footer .footer-center{
-    width: 30%;
+.list-items >li :hover{
+    color:var(--hover-color);
 }
 
-div > ul > li{
+.list-items{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.list-items > li{
     display: block;
     padding: 10px 0px;
     font-size:14px;
 }    
 
-.menu li :hover{
-    color:#384696;
-}
-
-div > ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-ul > li >i{
+.list-items > li >i{
     padding: 0 10px 0 0;
     
 }
 
 div.title {
     font-weight: bold;
-    color: #1585d4;
+    color: var(--header-color);
 }
 
 /* container */
