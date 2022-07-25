@@ -36,6 +36,9 @@
     text-decoration: none;
     padding: 15px;
 }
+.contents img{
+    width: 100%;
+}
 .item_s{
     display: block;
     text-decoration: none;
@@ -142,6 +145,7 @@ footer{
     background-color: var(--background-color);
 }
 
+
 .footer-left, .footer-center, .footer-right{
     display: inline-block;
     vertical-align: top;
@@ -192,32 +196,37 @@ div.title {
 
 
 /* container */
-
-#menu{
-
-    width: 100%;
-    /* border: 1px solid white; */
-    /* height: 100px; */
-    background-color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 13px;
-    margin-top: 40px;
+.container{
 
 }
+
+#menu{
+    width: 100%;
+/* border: 1px solid white; */
+/* height: 100px; */
+background-color: white;
+font-family: Helvetica, sans-serif;
+font-size: 13px;
+/* margin-top: 40px; */
+}
+    
+
 #menu ul{
-
-  margin-top:  42px;
-
+    background:rgba(200, 196, 196, 0.41);
+    
+    display: flex;
+  
 }
 
 #menu ul li{
 
-  list-style-type: none;
-
-  display: inline;
-
-  margin-left: 120px;
-
+    list-style-type: none;
+    /* display: flex; */
+    display: block;
+    /* margin-left: 120px; */
+    position: flex;
+    width: 25%;
+    
 }
 
 #menu ul li a:link {
@@ -228,14 +237,7 @@ div.title {
 
    text-transform: uppercase;
    
-   padding-top: 40px;
-
-   padding-bottom: 20px;
-
-   padding-left: 40px;
-
-   padding-right: 40px;
-
+   padding: 10% 30%;
 }           
 
 #menu ul li a:visited{
@@ -248,20 +250,6 @@ div.title {
 
 }       
 
-
-#menu:hover a::before img{
-    width: 100%;
-    transition: all 1s ease-in-out;
-}
-#menu a::before img{
-    content:"";
-    position: absolute;
-    background-color: #06619e;
-    bottom: -6px;
-    height: 3px;
-    box-sizing: border-box;
-    width: 0%;
-}
 
 #menu ul li a:hover{
 
@@ -276,3 +264,4 @@ div.title {
    box-shadow:         0px 4px 5px rgba(50, 50, 50, 0.93); */
 
 }
+
