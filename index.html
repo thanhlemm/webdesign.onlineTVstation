@@ -12,12 +12,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />        <!--Kiem link font chu  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">        <!--Kiem link font chu  -->
         <link rel="stylesheet" href="">
         <script src="https://kit.fontawesome.com/46df3262bf.js" crossorigin="anonymous"></script>
+        
     </head>
     <body>
-        hi
         <div class="app">
             <header class="header_top">
                 <nav class = "navbar">
@@ -57,44 +57,54 @@
                     </ul>
                 </nav>
             </header>
-                <div class="slideshow-container">
-                    <div class="slide fade">
-                        <a href="#" title="Đi là ghiền"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
-                    </div>
-                    <div class="slide fade"> 
-                        <a href="#" title="Siêu tài năng nhí"><img src="assets/img/show/Sieutainang.jpeg" alt="pic2"></a>
-                    </div>
-                    <div class="slide fade">
-                        <a href="#" title="Street Dance"><img src="assets/img/show/streetdance.jpeg" alt="pic3"></a>
-                    </div>
-                  
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="assets/img/show/Dilaghien.jpeg" alt="pic1">
+                </div>
+                <div class="mySlides fade"> 
+                    <img src="assets/img/show/Sieutainang.jpeg" alt="pic2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="assets/img/show/streetdance.jpeg" alt="pic3">
                 </div>
             
-            <div class="container">
-                <div class="program">
-                    <div class="program-list">
-                        <div class="program-list_item">
-                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
-                        </div>
-                        <div class="program-list_item">
-                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic2"></a>
-                        </div>
-                        <div class="program-list_item">
-                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
-                        </div>
-                        <div class="program-list_item">
-                            <a href="#"><img src="assets/img/show/Dilaghien.jpeg" alt="pic1"></a>
-                        </div>
-                    </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            
+            <!--ảnh để tạm-->
+            <div>
+                <div  >
+                    <img src="assets/img/show/Dilaghien.jpeg" alt="pic1">
+                </div>
+                <div > 
+                    <img src="assets/img/show/Sieutainang.jpeg" alt="pic2">
+                </div>
+                <div >
+                    <img src="assets/img/show/streetdance.jpeg" alt="pic3">
+                </div>
+                <div >
+                    <img src="assets/img/show/Dilaghien.jpeg" alt="pic1">
+                </div>
+                <div > 
+                    <img src="assets/img/show/Sieutainang.jpeg" alt="pic2">
+                </div>
+                <div >
+                    <img src="assets/img/show/streetdance.jpeg" alt="pic3">
                 </div>
             </div>
 
             <footer>
-
                 <div class="footer-left">
-                     <div class="title">ĐÀI TRUYỀN HÌNH THÀNH PHỐ HỒ CHÍ MINH</div><br>
+                    <div class="title">ĐÀI TRUYỀN HÌNH THÀNH PHỐ HỒ CHÍ MINH</div><br>
                     <div class="credit">
                         <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_cu_HTV.png" alt="logo"></a>
                     </div>
@@ -102,7 +112,7 @@
                 <div class="footer-center">
                     <div class="title"> LIÊN KẾT NHANH</div>
                     <div class="menu">
-                        <ul>
+                        <ul class="list-items">
                             <li><a href="#">TV Show</a></li>
                             <li><a href="#">Lịch phát sóng</a></li>
                             <li><a href="#">Giới thiệu</a></li>
@@ -112,7 +122,7 @@
                 <div class="footer-right">
                     <div class="title">LIÊN HỆ</div>
                     <div class="contact">
-                        <ul>
+                        <ul class="list-items">
                             <li><i class="fa-solid fa-user-group"></i>Tổng biên tập: Lê Thị Bảo Trinh & Ngô Thanh Lam</li>
                             <li><i class="fa-solid fa-location-dot"></i>371 Nguyễn Kiệm, Gò Vấp, TPHCM</li>
                             <li><i class="fa-solid fa-mobile-screen"></i>0912534722</li>
@@ -123,7 +133,6 @@
             </footer>
         </div>
         <script src="assets/javascript/show.js"></script>
-        
     </body>
     <script>
         function plusSlides(){
