@@ -9,12 +9,16 @@
     --background-color:#0e2346; 
     --header-color: #1585d4;
     --hover-color: rgb(27, 133, 174);
+    --width: 80%;
 }
 .flex{
     display: flex;
 }
 .h-space{
     justify-content: space-between;
+}
+.v-center{
+    align-items: center;
 }
 ul.menu{
     list-style-type: none;
@@ -226,9 +230,44 @@ div.title {
 
 /* container */
 .container{
-
+    width:var(--width);
+    margin: 4% auto;
+}
+section.forums{
+    background-color: rgba(200, 196, 196, 0.41);
+    color: white !important;
+    
 }
 
+div.forum{
+    /* padding: 10px; */
+    border-bottom: 1px solid white;
+}
+
+div.forum:last-child{
+    border-bottom: none;
+}
+
+/* div.forum img{
+    width:120px;
+    
+} */
+ul.flex.v-center{
+    /* border-right: 2px solid white; */
+    padding: 0;
+    margin: 0;
+}
+
+div.forum a{
+    color: white;
+    text-decoration: none;
+}
+section.forums ul{
+    list-style-type: none;
+}
+div.forum.flex.v-center  img{
+    width: 500px;
+}
 
 
 /*kenh truyen hinh*/
