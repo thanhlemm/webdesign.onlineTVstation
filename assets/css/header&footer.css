@@ -78,6 +78,7 @@ div.search-container input{
     text-align: center;
     border: 1px solid white;
     position: relative;
+    padding: 10px;
  
 }
 .contents{
