@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/header&footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">        
         <!--Kiem link font chu  -->
         <link rel="stylesheet" href="">
@@ -20,55 +21,58 @@
     </head>
     <body>
         <div class="app">
-            <header class="header_top">
-                <nav class="flex h-space">
-                    <ul class="menu flex">
-                        <li><a href="#"><i class="fa-solid fa-phone"></i> 0932036075</a></li>
-                        <li><a href="mailto:tan036075@gmail.com"><i class="fa-regular fa-square-envelope"></i> tan036075@gmail.com</a></li>
-                        
-                    </ul>
-    
-                    <ul class="menu flex">
-                        <li><a href="#"><i class="fa-solid fa-bell" ></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
-                    </ul>
-                </nav>
-                <nav class = "navbar">
-                    <ul class="navbar-list">
-                        <li class="navbar-item">
-                            <a href="#" class="contents">
-                                <img src="https://www.htv.com.vn/Data/Sites/1/media/logo.png" alt="logo THVL" >
-                                <span></span>
-                            </a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="#" class="contents">
-                                <i class="fa-solid fa-calendar-days fa-2x" style="color:#3d8dde;"></i>
-                                <span class="item_s">Lịch phát sóng</span>
-                            </a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="#" class="contents">
-                                <i class="fa-solid fa-tv fa-2x" style="color:#3d8dde;"></i>
-                                <span class="item_s">TV Show</span>
-                            </a>
-                            <ul class="dropdown-content">
-                                <li ><a href="#" class="item">Phim truyền hình</a></li>
-                                <li ><a href="#" class="item">2 ngày 1 đêm</a></li>
-                                <li ><a href="#"class="item">Hôm nay ăn gì?</a></li>
-                                <li ><a href="#" class="item">Bố ơi mình đi đâu thế?</a></li>
-                                <li ><a href="#" class="item">Street dance</a></li>
-                                <li ><a href="#" class="item">Siêu tài năng</a></li>
-                            </ul>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="#" class="contents">
-                                <i class="fa-solid fa-user fa-2x" style="color:#3d8dde;"></i>
-                                <span class="item_s">Giới thiệu</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <header>
+                <div class="header_top flex">
+                    <nav class="flex container">
+                        <ul class="menu flex">
+                            <li><a href="#"><i class="fa-solid fa-phone"></i> 0932036075</a></li>
+                            <li><a href="mailto:tan036075@gmail.com"><i class="fa-solid fa-envelope"></i> tan036075@gmail.com</a></li>
+                            
+                        </ul>
+                    </nav>
+                    <div class="search-container flex">
+                          <input type="text" placeholder="Search.." name="search">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="header_bottom">
+                    <nav class = "navbar">
+                        <ul class="navbar-list">
+                            <li class="navbar-item">
+                                <a href="trangchu.html" target="_blank" class="contents">
+                                    <img src="https://www.htv.com.vn/Data/Sites/1/media/logo.png" alt="logo THVL" >
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="Calendar.html" class="contents">
+                                    <i class="fa-solid fa-calendar-days fa-2x" style="color:#3d8dde;"></i>
+                                    <span class="item_s">Lịch phát sóng</span>
+                                </a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="TV_show.html" class="contents">
+                                    <i class="fa-solid fa-tv fa-2x" style="color:#3d8dde;"></i>
+                                    <span class="item_s">TV Show</span>
+                                </a>
+                                <ul class="dropdown-content">
+                                    <li ><a href="#" class="item">Phim truyền hình</a></li>
+                                    <li ><a href="#" class="item">2 ngày 1 đêm</a></li>
+                                    <li ><a href="#"class="item">7 nụ cười xuân</a></li>
+                                    <li ><a href="#" class="item">Nhanh như chớp</a></li>
+                                    <li ><a href="#" class="item">Street dance</a></li>
+                                    <li ><a href="#" class="item">Siêu tài năng</a></li>
+                                </ul>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="gioi_thieu.html" class="contents">
+                                    <i class="fa-solid fa-user fa-2x" style="color:#3d8dde;"></i>
+                                    <span class="item_s">Giới thiệu</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <div class="slideshow-container">
                 <div class="mySlides fade">
@@ -94,7 +98,7 @@
             </div>
             
             <!--kenh truyen hinh-->
-            <div class="pic-items ">
+            <!-- <div class="pic-items ">
                 <div id="menu-items" > 
                     <div></div>
                     <div class="items-channel"> 
@@ -114,6 +118,13 @@
                     </div>
                     <div></div>
                 </div>
+            </div> -->
+            <div class="wrap-layout">
+                <div class="wrap-layout_item"><a href="#"><img src="https://assets.htv.com.vn/Images/1/Banner/102.png"></a></div>
+                <div class="wrap-layout_item"><a href="#"><img src="https://assets.htv.com.vn/Images/1/Banner/103.png"></a></div>
+                <div class="wrap-layout_item"><a href="#"><img src="https://assets.htv.com.vn/Images/1/Banner/109.png"></a></div>
+                <div class="wrap-layout_item"><a href="#"><img src="https://assets.htv.com.vn/Images/1/Banner/106.png"></a></div>
+                <div class="wrap-layout_item"> <a href="#"><img src="https://assets.htv.com.vn/Images/1/Banner/107.png"></a></div>
             </div>
             
             <section class="container">
@@ -157,19 +168,20 @@
                 </section>
             </section>
 
+            <!-- FOOTER -->
             <footer>
                 <div class="footer">
                     <div class="footer-left">
                         <div class="title">ĐÀI TRUYỀN HÌNH THÀNH PHỐ HỒ CHÍ MINH</div><br>
                         <div class="credit">
-                            <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_cu_HTV.png" alt="logo"></a>
+                            <a href="#"> <img src="https://saigonpoint.vn/wp-content/uploads/2014/02/HTV_logo.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="footer-center">
                         <div class="title"> LIÊN KẾT NHANH</div>
                         <div class="menu">
                             <ul class="list-items">
-                                <li><a href="#">TV Show</a></li>
+                                <li><a href="http://127.0.0.1:5500/TV_show.html">TV Show</a></li>
                                 <li><a href="#">Lịch phát sóng</a></li>
                                 <li><a href="#">Giới thiệu</a></li>
                             </ul>
@@ -185,6 +197,10 @@
                                 <li><i class="fa-solid fa-envelope"></i>Email:<a href="mailto:2151050220lam@ou.edu.vn"> 2151050220lam@ou.edu.vn</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="contact_fb">
+                        <a href="https://www.facebook.com/baotrinh2505/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/b_tyhrn25/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </footer>

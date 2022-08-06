@@ -20,90 +20,6 @@
 .v-center{
     align-items: center;
 }
-ul.menu{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav.flex.h-space{
-    background-color: #0e2346;
-    
-}
-ul.menu >li > a{
-    display: block;
-    padding: 1rem 1.5rem;
-    color: white;
-    text-decoration: none;
-}
-
-ul.menu > li >a:hover{
-    color: var(--hover-color);
-
-}
-.header_top{
-    position: sticky;
-    z-index: 1000;
-    top: 0;
-}
-.navbar-list{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    background-color: var(--background-color);
-    z-index: 999; 
-}
-.navbar-item{
-    width: 25%;
-    text-align: center;
-    border-right: 1px solid white;
-    position: relative;
-}
-.contents{
-    color: var(--text-color);
-    display: block;
-    text-decoration: none;
-    padding: 15px;
-}
-.contents img{
-    width: 100%;
-}
-.item_s{
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px 10px 0px;
-}
-.item{
-    display: block;
-    text-decoration: none;
-    padding: 15px;
-    border: 1px solid;
-    margin: 5px;
-    border-radius: 0 20px;
-    font-weight: bold;
-}
-.item:hover{
-    background-color: rgb(27, 133, 174);
-    
-}
-.dropdown-content{
-    display: none;
-    background-color: var(--background-color);
-    list-style-type: none;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar-item:hover .dropdown-content{
-    display: block;
-    position: absolute;
-}
-.navbar-item:hover{
-    background-color: #384696;
-    
-}
   
 .mySlides {
     display: none;
@@ -167,69 +83,64 @@ ul.menu > li >a:hover{
     }
 }
 
-footer{
+/*kenh truyen hinh*/
+/* .pic-items{
+    width: 100%;
+    height: 110px;
+    background:rgba(200, 196, 196, 0.41);
+}
+#menu-items {
+    display: flex;
     
-    bottom: 0;
-    padding: 20px;
+}
+#menu-items .items-channel{
+    width: 20%;
+    height: 110px;
+    padding: 30px;
+    border-left: 3px solid white;
+}
+
+#menu-items .items-channel img{
     width: 100%;
-    text-align: left;
-    margin-top: 80px;
-    box-sizing: border-box;
-    background-color: var(--background-color);
-}
-
-
-.footer-left, .footer-center, .footer-right{
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
-    padding-left: 40px;
-}
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-.footer-left img{
-    width: 100%;
-    vertical-align: middle;
-}
-
-.footer-left .credit{
-    width:30%;
-    margin: 0 auto;
-}
-
-
-
-.list-items >li :hover{
-    color:var(--hover-color);
-}
-
-.list-items{
-    list-style-type: none;
-    padding: 0;
-}
-
-ul.list-items > li{
     display: block;
-    padding: 10px 0px;
-    font-size:14px;
-}  
+    overflow: hidden;
+} */
 
-.list-items > li >i{
-    padding: 0 10px 0 0;
-    
+
+.wrap-layout{
+    background-color: rgba(200, 196, 196, 0.41);
+    margin-top: 36px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-div.title {
-    font-weight: bold;
-    color: var(--header-color);
+.wrap-layout_item img{
+    width: 100%;
 }
+
+.wrap-layout_item{
+    width: 175px;
+    height: 90px;
+    color: white;
+    text-align: center;
+    line-height: 98px;
+    font-size: 48px;
+    font-weight: 700;
+    transition: 0.5s;
+    /* margin-top: 20px; */
+    /* background-color: rgba(200, 196, 196, 0.41); */
+}
+.wrap-layout_item:hover{
+    background-color: rgb(213, 213, 213);
+    padding: 5px;
+    transition: 0.5s;
+}
+
 
 
 /* container */
-.container{
+section.container{
     width:var(--width);
     margin: 4% auto;
 }
@@ -278,28 +189,4 @@ div.forum.flex.v-center  img{
     background-color: rgb(213, 213, 213);
 }
 
-/*kenh truyen hinh*/
-.pic-items{
-    width: 100%;
-    height: 110px;
-    background:rgba(200, 196, 196, 0.41);
-}
-#menu-items {
-    display: flex;
-    
-}
-#menu-items .items-channel{
-    width: 20%;
-    height: 110px;
-    padding: 30px;
-    border-left: 3px solid white;
-}
 
-#menu-items .items-channel img{
-    width: 100%;
-    display: block;
-    overflow: hidden;
-}
-.items-channel:hover{
-    background-color: rgb(171, 203, 230);
-}

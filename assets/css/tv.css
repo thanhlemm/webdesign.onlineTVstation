@@ -1,0 +1,88 @@
+
+
+/* content program */
+.Module{
+    position: relative;
+    height: 180px;
+    display: block;
+
+}
+.contents_tv{
+    position: absolute;
+    top: 30px;
+}
+.col_1, .col_2{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-transform:uppercase;
+    text-align: center;
+}
+.col_2 >span:first-child a:hover{
+    color:var(--hover-color_2);
+}
+.col_2 >span>a{
+    text-decoration: none;
+}
+
+/* main content */
+.courses_programs{
+    width: 100%;
+    margin: 50px auto;
+    
+}
+.ADV{
+    text-transform: uppercase;
+    color: rgb(115, 13, 96);
+    margin-left: 145px;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    animation: doimauchu ease 3s infinite;
+}
+@keyframes doimauchu{
+    0%{
+        color: rgb(76, 9, 84);
+    }
+    25%{
+        color: orangered;
+    }
+    75%{
+        color: rgb(210, 200, 14);
+    }
+}
+div.program{
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.program_item{
+    width: 20%;
+    margin: 24px;
+}
+
+
+.program_item img{
+    max-width: 100%;
+    transition: transform ease-in-out 0.3s;
+}
+.program_item img:hover{
+    transform: scale(1.1);
+}
+
+.test .title_heading{
+    text-transform: uppercase;
+    color: var(--header-color);
+    text-decoration: none;
+}
+.test >div{
+    text-transform: capitalize;
+    color: rgb(66, 61, 61);
+    margin-left: 13px;
+}
+.test>h5{
+    margin: 4px 0;
+}
+.test >h5>a:hover{
+    color: var(--hover-color_2);
+}
