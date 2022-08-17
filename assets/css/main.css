@@ -189,135 +189,170 @@ div.forum.flex.v-center  img{
     background-color: rgb(213, 213, 213);
 } */
 .container_cards{
-    
-    
-  margin: 20px auto;
-}
-.cards {
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    /* display: -webkit-flex;
+    margin: 20px auto;
     justify-content: center;
-    -webkit-justify-content: center; */
-    /* max-width: 820px; */
-}
-
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('/assets/img/show/Dilaghien.jpeg');
-}
-
-.card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('/assets/img/show/Sieutainang.jpeg');
-}
-.card--3 .card__img, .card--3 .card__img--hover{
-    background-image: url('/assets/img/show/streetdance.jpeg');
-}
-.card--4 .card__img, .card--4 .card__img--hover{
-    background-image: url('/assets/img/show/Vuikhoe.jpeg');
-}
-.card--5 .card__img, .card--5 .card__img--hover{
-    background-image: url('/assets/img/show/Dilaghien.jpeg');
-}
-.card--6 .card__img, .card--6 .card__img--hover{
-    background-image: url('/assets/img/show/streetdance.jpeg');
-}
-.card--7 .card__img, .card--7 .card__img--hover{
-    background-image: url('/assets/img/show/Sieutainang.jpeg');
-}
-.card--8 .card__img, .card--8 .card__img--hover{
-    background-image: url('/assets/img/show/Vuikhoe.jpeg');
-}
-
-
-.card__img {
-    visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+  }
   
-}
-
-
-.card__img--hover {
-    transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: absolute;
-    height: 235px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    top: 0;
+  .container_cards--2{
+      margin: 80px auto;
+      justify-content: center;
+    }
+  .cards {
+      width: 80%;
+      display: flex;
+      
+  }
   
-}
-.card {
-    margin: 10px auto;
-    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #fff;
-    width: 45%;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
-}
-.card:hover {
-    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    transform: scale(1.10, 1.10);
-}
-
-.card__info {
-    z-index: 2;
-    background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    padding: 16px 24px 24px 24px;
-}
-
-.card__category {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #868686;
-}
-
-.card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
-}
-
-.card__by {
-    font-size: 12px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
-
-.card__author {
-    font-weight: 600;
-    text-decoration: none;
-    color: #AD7D52;
-}
-
-.card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
-}
-
-.card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: 1;
-}
-
-
+  .card-first{
+      flex: 1;
+      
+  }
+  
+  .card-second{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .card-third{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  article.card.card--1 {
+      height: 440px;
+  }
+  article.card.card--1 .card__img--hover{
+      height: 440px;
+  }
+  article.card.card--1 .card__info{
+      margin-top: 230px;
+  }
+  .card.card--2{
+  
+  }
+  
+  .card.card--3{
+      
+  }
+  
+  .card.card--4{
+      
+  }
+  
+  .card.card--5{
+      
+  }
+  
+  .card--1 .card__img, .card--1 .card__img--hover {
+      background-image: url('/assets/img/show/Dilaghien.jpeg');
+  }
+  
+  .card--2 .card__img, .card--2 .card__img--hover {
+      background-image: url('/assets/img/show/Sieutainang.jpeg');
+  }
+  .card--3 .card__img, .card--3 .card__img--hover{
+      background-image: url('/assets/img/show/streetdance.jpeg');
+  }
+  .card--4 .card__img, .card--4 .card__img--hover{
+      background-image: url('/assets/img/show/Vuikhoe.jpeg');
+  }
+  .card--5 .card__img, .card--5 .card__img--hover{
+      background-image: url('/assets/img/show/Dilaghien.jpeg');
+  }
+  
+  
+  
+  .card__img {
+      visibility: hidden;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    
+  }
+  
+  
+  .card__img--hover {
+      transition: 0.2s all ease-out;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      position: absolute;
+      height: 235px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      top: 0;
+    
+  }
+  .card {
+      margin: 10px auto;
+      transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+      background-color: #fff;
+      width: 99%;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  }
+  .card:hover {
+      box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+      transform: scale(1.10, 1.10);
+  }
+  
+  .card__info {
+      z-index: 2;
+      background-color: #fff;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      padding: 16px 24px 24px 24px;
+  }
+  
+  .card__category {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      color: #868686;
+  }
+  
+  .card__title {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  .card__by {
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+  }
+  
+  .card__author {
+      font-weight: 600;
+      text-decoration: none;
+      color: #AD7D52;
+  }
+  
+  .card:hover .card__img--hover {
+      height: 100%;
+      opacity: 0.3;
+  }
+  
+  .card:hover .card__info {
+      background-color: transparent;
+      position: relative;
+  }
+  
+  .card:hover .card__info-hover {
+      opacity: 1;
+  }
+  
+  
+  
