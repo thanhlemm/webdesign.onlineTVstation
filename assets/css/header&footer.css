@@ -143,6 +143,9 @@ div.search-container input{
         text-align:center;
         margin: 0 auto;
       }
+      span.item_s, .item{
+        font-size: 0.6rem !important;
+      } 
 }
 
 footer{
