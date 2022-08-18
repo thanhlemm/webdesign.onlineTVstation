@@ -58,7 +58,7 @@ div.program{
 }
 .program_item{
     width: 20%;
-    margin: 24px;
+    margin: 22px;
 }
 
 
@@ -85,4 +85,18 @@ div.program{
 }
 .test >h5>a:hover{
     color: var(--hover-color_2);
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+    .program_item
+    {
+        width: 26% ;
+    }
+}
+@media only screen and (max-width:740px){
+
+      .program_item
+      {
+          width: 23.9% ;
+      }
 }
