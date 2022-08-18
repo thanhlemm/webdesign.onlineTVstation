@@ -12,7 +12,40 @@
     --hover-color: rgb(27, 133, 174);
     --hover-color_2:rgb(203, 141, 18);;
 }
-
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .comb >div, p{
+        font-size: 0.8rem;
+      }
+    .bomb iframe{
+        width: 450px;
+    }
+    .program_item{
+        width: 42% !important;
+    }
+    .comb >h2{
+        font-size: 0.8rem !important;
+    }
+}
+@media only screen and (max-width:740px){
+    .comb div, p{
+        font-size: 0.6rem;
+      }
+    .bomb iframe{
+        width: 350px;
+    }
+    .program_item{
+        width: 39.9% !important;
+    }
+    span.item_s, .item{
+        font-size: 0.6rem !important;
+    }                                           
+    .col_2 >span a{
+        font-size: 0.9rem !important;
+    }
+    .comb >h2{
+        font-size: 0.8rem !important;
+    }
+}
 .main{
     clear: both;
     display: block;
