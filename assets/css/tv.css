@@ -99,4 +99,7 @@ div.program{
       {
           width: 23.9% ;
       }
+       span.item_s, .item{
+        font-size: 0.6rem !important;
+      } 
 }
