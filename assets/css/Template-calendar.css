@@ -112,7 +112,10 @@ section.heading-page h2 {
   div.tab-content a{
     font-size: 16px;
     text-decoration: none;
-    color:rgba(159, 162, 177, .8);
+    color:white;
+  }
+  div.name:hover{
+    background-color: grey;
   }
   div.name{
     background-color: #dfe2ea;

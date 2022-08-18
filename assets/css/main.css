@@ -139,62 +139,36 @@
 
 
 
-/* container */
-/* section.container{
-    width:var(--width);
-    margin: 4% auto;
-}
-section.forums{
-    background-color: rgba(200, 196, 196, 0.41);
-    color: white !important;
-    
-}
 
-div.forum{
-    border-bottom: 1px solid white;
+.font{
+    margin: 30px ;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    margin-left: 145px;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    animation: doimauchu ease 3s infinite;
 }
-
-div.forum:last-child{
-    border-bottom: none;
+@keyframes doimauchu{
+    0%{
+        color: rgb(217, 217, 217);
+    }
+    25%{
+        color: rgb(244, 189, 169);
+    }
+    75%{
+        color: rgb(240, 188, 213);
+    }
 }
-
-
-ul.flex.v-center{
-    /* border-right: 2px solid white; 
-    padding: 0;
-    margin: 0;
-}
-
-div.forum a{
-    color: white;
-    text-decoration: none;
-}
-section.forums ul{
-    list-style-type: none;
-}
-div.forum.flex.v-center  img{
-    width: 500px;
-}
-
-.name{
-    /* display: block; 
-    text-decoration: none;
-    /* padding: 15px;
-    border: 1px solid;
-    margin: 5px; 
-    font-size: 14px;
-    font-weight: 100px;
-}
-.name:hover{
-    background-color: rgb(213, 213, 213);
-} */
 .container_cards{
     margin: 20px auto;
     justify-content: center;
   }
   
   .container_cards--2{
-      margin: 80px auto;
+      margin: 20px auto;
       justify-content: center;
     }
   .cards {
@@ -221,7 +195,7 @@ div.forum.flex.v-center  img{
   }
   
   article.card.card--1 {
-      height: 440px;
+      height: 405px;
   }
   article.card.card--1 .card__img--hover{
       height: 440px;
