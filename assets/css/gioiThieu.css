@@ -163,9 +163,9 @@ section#DV{
 .nav_scroll{
   position: fixed;
   z-index: 10;
-  width: 100%;
+  width: 97%;
   height: 80px;
-  top: 137px;
+  top: 90px;
 }
 .content_scroll{
   margin-left: auto;
